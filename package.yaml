@@ -59,3 +59,14 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - quotes-api
+    - hspec
+    - hspec-wai
+    - hspec-wai-json
+    - aeson
+    - aeson-qq
+    - text
+    - utf8-string
+    default-extensions: OverloadedStrings
+                        NamedFieldPuns
+                        ScopedTypeVariables
+                        DeriveGeneric
